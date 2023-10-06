@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 52;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -30,6 +30,7 @@
 		468A8728251C8AC20018D007 /* ButtonAnimationExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 468A8727251C8AC20018D007 /* ButtonAnimationExample.swift */; };
 		46E4094E252996D900D238A8 /* SwiftUIExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46E4094D252996D900D238A8 /* SwiftUIExample.swift */; };
 		51D058022823432C008AAC04 /* InputBarAccessoryView in Frameworks */ = {isa = PBXBuildFile; productRef = 51D058012823432C008AAC04 /* InputBarAccessoryView */; };
+		9BDA38D82ACFC1E800A22BE3 /* InputBarAccessoryView.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 9BDA38D72ACFC1E800A22BE3 /* InputBarAccessoryView.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -71,6 +72,7 @@
 		468A8727251C8AC20018D007 /* ButtonAnimationExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAnimationExample.swift; sourceTree = "<group>"; };
 		46E4094D252996D900D238A8 /* SwiftUIExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIExample.swift; sourceTree = "<group>"; };
 		51D057FF28234307008AAC04 /* InputBarAccessoryView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = InputBarAccessoryView; path = ..; sourceTree = "<group>"; };
+		9BDA38D72ACFC1E800A22BE3 /* InputBarAccessoryView.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = InputBarAccessoryView.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		383B83901F47897800027965 = {
 			isa = PBXGroup;
 			children = (
+				9BDA38D72ACFC1E800A22BE3 /* InputBarAccessoryView.podspec */,
 				51D058002823432C008AAC04 /* Frameworks */,
 				51D057FE28234307008AAC04 /* Packages */,
 				383B839A1F47897800027965 /* Products */,
@@ -261,6 +264,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				383B83A11F47897800027965 /* Assets.xcassets in Resources */,
+				9BDA38D82ACFC1E800A22BE3 /* InputBarAccessoryView.podspec in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
